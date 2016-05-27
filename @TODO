@@ -1,0 +1,20 @@
+@TODO	
+	(DONE) Voltar dados antigos no hidetoolbar caso nenhuma ação tenha sido feito
+		(*) Tentar achar um metodo consistente para recuperar seleção de saída
+	(DONE) Callback que vai salvar no modelo
+	(DONE) Flexibilizar entrada de tamanho de fontes	
+	(DONE) Compatibilidade com links antigos :(
+
+	(DONE) Checagem de valores válidos
+		(DONE) Valores vazios, sem um validador funcionao yet 
+	(DONE) Botaõ de cancelar dos css apliers
+	(DONE) Problemas te concurency no evento de hideToolbar
+	(DONE) Retirar links, fluxo? 
+	(DONE) Limpeza do conteudo
+		(DONE) Tags vazias
+		(DONE) Tags de marcação simbolica
+	(DONE) Life cycle hook apra salvar as alterações
+
+
+	Editor
+	() Tamanhos e cores usados no preferences

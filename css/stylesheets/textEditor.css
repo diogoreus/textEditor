@@ -1,0 +1,167 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Medium editor */
+/* line 10, ../sass/textEditor.scss */
+.medium-editor-toolbar {
+  border-radius: 0;
+  max-width: 450px;
+  background-color: initial;
+  border: none;
+}
+/* line 16, ../sass/textEditor.scss */
+.medium-editor-toolbar li button {
+  height: 35px;
+  min-width: 35px;
+  padding: 8px;
+  background-color: #575757;
+  position: relative;
+  border-bottom: 1px solid #3D3C3C;
+}
+/* line 24, ../sass/textEditor.scss */
+.medium-editor-toolbar li button > * {
+  font-size: 12px;
+}
+/* line 28, ../sass/textEditor.scss */
+.medium-editor-toolbar li button i.undo:after {
+  content: "\f00d";
+  position: absolute;
+  font-size: 12px;
+  bottom: 6px;
+  left: 19px;
+  color: white;
+}
+/* line 37, ../sass/textEditor.scss */
+.medium-editor-toolbar li button i.undo:before {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 42, ../sass/textEditor.scss */
+.medium-editor-toolbar .medium-editor-toolbar-actions {
+  text-align: center;
+}
+/* line 45, ../sass/textEditor.scss */
+.medium-editor-toolbar .medium-editor-toolbar-actions > div {
+  position: relative;
+  display: inline-flex;
+  margin: 0 1px;
+}
+/* line 53, ../sass/textEditor.scss */
+.medium-editor-toolbar .medium-editor-toolbar-form a {
+  font-size: 18px;
+  margin: 0 8px;
+}
+/* line 60, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSizeBt {
+  padding: 0;
+}
+/* line 64, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize {
+  width: 75px;
+  height: 34px;
+}
+/* line 68, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize input,
+.medium-editor-toolbar .textSize button {
+  border-radius: 0;
+  background-color: #575757;
+  color: #fff;
+  border-color: #3D3C3C;
+}
+/* line 75, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize input:focus,
+.medium-editor-toolbar .textSize button:focus {
+  box-shadow: none;
+}
+/* line 80, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize button {
+  border-right: none;
+  border-left: 1px solid #3D3C3C;
+  padding: 5px;
+}
+/* line 85, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize button:focus {
+  background-color: #3D3C3C;
+  color: #fff;
+  border-color: #3D3C3C;
+}
+/* line 92, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize input {
+  border: none;
+  border-right: 1px solid #3D3C3C;
+  font-size: 13px;
+}
+/* line 99, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize .dropup .dropdown-toggle {
+  min-width: inherit;
+  border-left: none;
+}
+/* line 105, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize .dropup.open button {
+  background-color: #3D3C3C;
+  color: #fff;
+  border-color: #3D3C3C;
+}
+/* line 113, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize .dropdown-menu {
+  width: 58px;
+  min-width: initial;
+  left: -59px;
+  bottom: 27px;
+  border-radius: 0;
+  padding: 5px 0 10px 0;
+  z-index: -1;
+  background-color: #4B4B4B;
+  border-color: #3D3C3C;
+}
+/* line 124, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize .dropdown-menu li {
+  width: 100%;
+}
+/* line 128, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize .dropdown-menu a {
+  font-size: 13px;
+  color: #F3F3F3;
+  margin: 0;
+  padding: 3px 14px;
+}
+/* line 134, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize .dropdown-menu a:hover {
+  background-color: #3D3B3B;
+}
+/* line 138, ../sass/textEditor.scss */
+.medium-editor-toolbar .textSize .dropdown-menu a:focus {
+  background-color: #3D3B3B;
+}
+
+/* line 146, ../sass/textEditor.scss */
+.medium-toolbar-arrow-under:after {
+  display: none;
+}
+
+/* END Medium editor */
+/* Spectrum Color picker */
+/* line 153, ../sass/textEditor.scss */
+.sp-replacer {
+  border: none;
+  background: initial;
+  height: 100%;
+  padding: 8px 5px;
+}
+
+/* line 160, ../sass/textEditor.scss */
+.sp-dd {
+  color: #131313;
+}
+
+/* line 164, ../sass/textEditor.scss */
+.sp-preview {
+  width: 22px;
+  height: 19px;
+}
+
+/* END Spectrum Color picker */
+/* line 172, ../sass/textEditor.scss */
+.tooltipstered {
+  background-color: red;
+}

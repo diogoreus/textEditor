@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Testes</title>
+	<link rel="stylesheet" href="./node_modules/medium-editor/dist/css/medium-editor.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="./node_modules/medium-editor/dist/css/themes/bootstrap.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./node_modules/spectrum-colorpicker/spectrum.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="./css/stylesheets/textEditor.css">
+
+	<style>
+		.fakeSelection,
+		.rangySelectionBoundary{
+			background-color: red;
+		}
+
+
+	</style>
+
+</head>
+<body>
+	<h1>Praesent posuere</h1>
+	<h1>Praesent posuere</h1>	
+	<h1>Praesent posuere</h1>
+	
+	<div class="editable1">	
+		Praesent <span>posuere massa eu nunc volutpat</span>, in <a class="mb-link" href="http://www.google.com">ornare</a> leo porta. Donec vitae orci et erat congue aliquam. Nullam porta urna fringilla justo interdum mollis. Suspendisse ut nibh eget nisi venenatis molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada <a href="asddd" class="mb-link">fameturpis</a> ac turpis egestas. In hac habitasse platea dictumst. Sed molestie sed turpis id malesuada. Nulla et pharetra mi. Phasellus mi magna, mattis non tristique id, pellentesque sed sapien. Nam non purus vestibulum, fermentum lorem gravida, facilisis neque. Quisque vel urna rhoncus felis egestas congue. Phasellus ut sem lobortis, vulputate magna ac, lacinia lorem. Duis nec mollis enim, vel rhoncus ante. Nam venenatis enim leo, in ullamcorper enim scelerisque in. Nulla facilisi. Nunc eu egestas dui, et vulputate odio.		
+	</div>
+	
+	<h1>Praesent posuere</h1>
+	<div class="editable2">	
+		<h1>YAYYYY</h1>
+		Praesent <span>posuere <br/> <p></p> massa eu nunc volutpat</span>, in <a class="textLink" href="http://www.google.com">ornare</a> leo porta. 
+		<span class="rangySelectionBoundary">rangySelectionBoundary</span>
+		<span class="fakeSelection">fakeSelection</span>
+		<span class="fakeSelection">    </span>
+		Donec vitae orci et erat congue aliquam. Nullam porta urna fringilla justo interdum mollis. Suspendisse ut nibh eget nisi venenatis molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada <a href="asddd" class="textLink">fameturpis</a> ac turpis egestas. In hac habitasse platea dictumst. 
+	</div>
+	<script data-main="./main" src="./node_modules/requirejs/require.js"></script>	
+	
+</body>
+</html>

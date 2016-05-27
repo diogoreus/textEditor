@@ -1,0 +1,21 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.3",
+    "medium-editor": "git+https://github.com/Mobiliza/medium-editor.git",
+    "rangy": "1.3.0",
+    "requirejs": "2.2.0",
+    "spectrum": "0.4.2",
+    "spectrum-colorpicker": "1.8.0",
+    "underscore": "1.8.3"
+  }
+}
